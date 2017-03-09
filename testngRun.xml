@@ -4,9 +4,9 @@
   <test name="webdriver6_demo">
     <classes>
       <class name="com.yq.day01.AssertTest">
-        <methods>
+<!--        <methods>
           <include name="assertEquals"/>
-        </methods>
+        </methods>-->
       </class> <!-- com.yq.day01.AssertTest -->
     </classes>
   </test> <!-- webdriver6_demo -->
