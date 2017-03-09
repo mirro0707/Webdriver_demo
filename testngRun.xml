@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+  <test name="webdriver6_demo">
+    <classes>
+      <class name="com.yq.day01.AssertTest">
+        <methods>
+          <include name="assertEquals"/>
+        </methods>
+      </class> <!-- com.yq.day01.AssertTest -->
+    </classes>
+  </test> <!-- webdriver6_demo -->
+</suite> <!-- Default Suite -->
