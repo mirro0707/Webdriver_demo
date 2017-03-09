@@ -4,19 +4,19 @@
   <test name="webdriver6_demo">
     <classes>
       <class name="com.yq.day01.AssertTest">
-        <methods>
+<!--        <methods>
           <include name="assertEquals"/>
           <include name="assertTrue"/>
-        </methods>
+        </methods>-->
       </class> <!-- com.yq.day01.AssertTest -->
-      <class name="com.yq.day01.BrowserOpenTest">
+<!--      <class name="com.yq.day01.BrowserOpenTest">
         <methods>
           <include name="openChrome"/>
           <include name="openFireFoxbyDirectory"/>
         </methods>
       </class>
       <class name="com.yq.day01.TestngTest">
-      </class>
+      </class>-->
 
     </classes>
   </test> <!-- webdriver6_demo -->
