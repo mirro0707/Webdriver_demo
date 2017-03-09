@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9b160523-9112-4b00-9607-e9050ff3d6a7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/yq/day01/BrowserOpenTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/yq/day01/BrowserOpenTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testngRun.xml" afterPath="$PROJECT_DIR$/testngRun.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -52,7 +53,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/BrowserOperationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/FindElmentTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/FindEelmentTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/FindElementTest.java" />
@@ -102,6 +102,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/yq/day07/po1/UtilsMail.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yq/day07/service/UtilsMail.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yq/day01/BrowserOpenTest.java" />
         <option value="$PROJECT_DIR$/testngRun.xml" />
       </list>
     </option>
@@ -167,8 +168,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="22" />
     <option name="width" value="1456" />
     <option name="height" value="876" />
   </component>
@@ -358,72 +358,6 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.D:/IdeaProjects/webdriver6_demo/testngRun.xml">
-    <configuration default="false" name="SendMail.sendMailTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.yq.day05.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="webdriver6_demo" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.yq.day05" />
-      <option name="MAIN_CLASS_NAME" value="com.yq.day05.SendMail" />
-      <option name="METHOD_NAME" value="sendMailTest" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="Login163.login" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.yq.day07.page.po.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="webdriver6_demo" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.yq.day07.page" />
-      <option name="MAIN_CLASS_NAME" value="com.yq.day07.cases.Login163" />
-      <option name="METHOD_NAME" value="login" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
     <configuration default="false" name="EmailRegister.registerTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -492,6 +426,72 @@
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="BrowserOperationTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.yq.day01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="webdriver6_demo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.yq.day01" />
+      <option name="MAIN_CLASS_NAME" value="com.yq.day01.BrowserOperationTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestngTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.yq.day01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="webdriver6_demo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.yq.day01" />
+      <option name="MAIN_CLASS_NAME" value="com.yq.day01.TestngTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -912,19 +912,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.SendMail.sendMailTest" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.Login163.login" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.EmailRegister.registerTest" />
-      <item index="3" class="java.lang.String" itemvalue="Maven.test.yq [clean]" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.D:/IdeaProjects/webdriver6_demo/testngRun.xml" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.EmailRegister.registerTest" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.test.yq [clean]" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.D:/IdeaProjects/webdriver6_demo/testngRun.xml" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.BrowserOperationTest" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.TestngTest" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="TestNG.D:/IdeaProjects/webdriver6_demo/testngRun.xml" />
-        <item index="1" class="java.lang.String" itemvalue="Maven.test.yq [clean]" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.EmailRegister.registerTest" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.Login163.login" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.SendMail.sendMailTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.TestngTest" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.BrowserOperationTest" />
+        <item index="3" class="java.lang.String" itemvalue="Maven.test.yq [clean]" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.EmailRegister.registerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -964,7 +964,7 @@
       <workItem from="1489024314664" duration="1962000" />
       <workItem from="1489033391295" duration="1801000" />
       <workItem from="1489035279471" duration="109000" />
-      <workItem from="1489035406185" duration="3341000" />
+      <workItem from="1489035406185" duration="6225000" />
     </task>
     <task id="LOCAL-00001" summary="添加pom文件编码，解决&#10;Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!">
       <created>1489033550480</created>
@@ -980,43 +980,50 @@
       <option name="project" value="LOCAL" />
       <updated>1489037687699</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update pom.xml :添加编译插件、执行插件；修改批量执行的xml">
+      <created>1489038838956</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1489038838956</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="D__IdeaProjects_webdriver6_demo_testngRun_xml - 2017.03.09 at 13h 31m 48s.xml">
+    <history-entry file="BrowserOperationTest - 2017.03.09 at 14h 11m 12s.xml">
+      <configuration name="BrowserOperationTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__IdeaProjects_webdriver6_demo_testngRun_xml - 2017.03.09 at 14h 11m 47s.xml">
       <configuration name="D:/IdeaProjects/webdriver6_demo/testngRun.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Login163_login - 2017.03.08 at 17h 37m 10s.xml">
-      <configuration name="Login163.login" configurationId="TestNG" />
+    <history-entry file="D__IdeaProjects_webdriver6_demo_testngRun_xml - 2017.03.09 at 14h 14m 37s.xml">
+      <configuration name="D:/IdeaProjects/webdriver6_demo/testngRun.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SendMail_sendMailTest - 2017.03.08 at 15h 47m 22s.xml">
-      <configuration name="SendMail.sendMailTest" configurationId="TestNG" />
+    <history-entry file="D__IdeaProjects_webdriver6_demo_testngRun_xml - 2017.03.09 at 14h 18m 41s.xml">
+      <configuration name="D:/IdeaProjects/webdriver6_demo/testngRun.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SendMail_sendMailTest - 2017.03.08 at 15h 48m 59s.xml">
-      <configuration name="SendMail.sendMailTest" configurationId="TestNG" />
+    <history-entry file="D__IdeaProjects_webdriver6_demo_testngRun_xml - 2017.03.09 at 14h 25m 01s.xml">
+      <configuration name="D:/IdeaProjects/webdriver6_demo/testngRun.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SendMail_sendMailTest - 2017.03.08 at 15h 59m 48s.xml">
-      <configuration name="SendMail.sendMailTest" configurationId="TestNG" />
+    <history-entry file="D__IdeaProjects_webdriver6_demo_testngRun_xml - 2017.03.09 at 14h 26m 22s.xml">
+      <configuration name="D:/IdeaProjects/webdriver6_demo/testngRun.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SendMail_sendMailTest - 2017.03.08 at 16h 03m 01s.xml">
-      <configuration name="SendMail.sendMailTest" configurationId="TestNG" />
+    <history-entry file="D__IdeaProjects_webdriver6_demo_testngRun_xml - 2017.03.09 at 14h 28m 00s.xml">
+      <configuration name="D:/IdeaProjects/webdriver6_demo/testngRun.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SendMail_sendMailTest - 2017.03.08 at 16h 04m 37s.xml">
-      <configuration name="SendMail.sendMailTest" configurationId="TestNG" />
+    <history-entry file="D__IdeaProjects_webdriver6_demo_testngRun_xml - 2017.03.09 at 14h 29m 27s.xml">
+      <configuration name="D:/IdeaProjects/webdriver6_demo/testngRun.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SendMail_sendMailTest - 2017.03.08 at 16h 35m 27s.xml">
-      <configuration name="SendMail.sendMailTest" configurationId="TestNG" />
+    <history-entry file="D__IdeaProjects_webdriver6_demo_testngRun_xml - 2017.03.09 at 14h 43m 03s.xml">
+      <configuration name="D:/IdeaProjects/webdriver6_demo/testngRun.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SendMail_sendMailTest - 2017.03.08 at 16h 38m 08s.xml">
-      <configuration name="SendMail.sendMailTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SendMail_sendMailTest - 2017.03.08 at 16h 40m 26s.xml">
-      <configuration name="SendMail.sendMailTest" configurationId="TestNG" />
+    <history-entry file="TestngTest - 2017.03.09 at 14h 27m 31s.xml">
+      <configuration name="TestngTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130790000" />
+    <option name="totallyTimeSpent" value="133674000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1028,7 +1035,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="22" y="0" width="1456" height="876" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1050,9 +1057,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21639785" sideWeight="0.5028653" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5766129" sideWeight="0.5028653" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3243607" sideWeight="0.49713466" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23997134" sideWeight="0.49022165" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23997134" sideWeight="0.49022165" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1388889" sideWeight="0.5045632" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1192,34 +1199,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logs/screenshots/screenshots1488554882811.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yq/day01/BrowserOperationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yq/day01/ElementFindTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yq/day01/TestngTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yq/day01/BrowserOpenTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yq/day02/SelectTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="815">
@@ -1465,10 +1444,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testngRun.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yq/day01/TestngTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yq/day01/BrowserOperationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
-          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yq/day01/ElementFindTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yq/day01/BrowserOpenTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="46" column="16" lean-forward="false" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testngRun.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="62" lean-forward="false" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
           <folding />
         </state>
       </provider>

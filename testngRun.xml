@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Default Suite">
+<suite name="Default Suite" parallel="methods" thread-count="2">
   <test name="webdriver6_demo">
     <classes>
       <class name="com.yq.day01.AssertTest">
@@ -9,6 +9,15 @@
           <include name="assertTrue"/>
         </methods>
       </class> <!-- com.yq.day01.AssertTest -->
+      <class name="com.yq.day01.BrowserOpenTest">
+        <methods>
+          <include name="openChrome"/>
+          <include name="openFireFoxbyDirectory"/>
+        </methods>
+      </class>
+      <class name="com.yq.day01.TestngTest">
+      </class>
+
     </classes>
   </test> <!-- webdriver6_demo -->
 </suite> <!-- Default Suite -->
